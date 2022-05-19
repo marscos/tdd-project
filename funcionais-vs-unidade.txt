@@ -1,0 +1,2 @@
+- Testes de unidade são executados muito mais rapidamente do que testes funcionais
+- Testes funcionais tentam simular a interação de um usuário com o software, enquanto testes de unidade apenas verificam valores no código
