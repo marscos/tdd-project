@@ -1,0 +1,22 @@
+1a. Escrevemos um teste funcional
+2a. Esse teste passa?
+    Não:
+        1b. Escrevemos um teste de unidade.
+        2b. Esse teste passa?
+            Não:
+                1c. Escrevemos o mínimo de código possível
+                2. Volte para o 2b.
+            Sim:
+                1. Esse código precisa de refatoração?
+                    Não:
+                        1. Volte para o 2a
+                    Sim:
+                        1. Volte para o 1c.
+    Sim:
+        1. A aplicação precisa de refatoração?
+            Não:
+                Volte para o 1a.
+            Sim:
+                Volte para o 1b.
+
+Escrevemos um teste funcional, e até esse teste passar e não precisar de refatoração, escrevemos testes de unidade, que até esses testes passarem e não precisarem de refatoração, escrevemos o mínimo de código para atender esses requisitos.
